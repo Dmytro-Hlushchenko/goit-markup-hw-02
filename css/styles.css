@@ -12,11 +12,11 @@ body {
     color: var(--primary-text-color);
 }
 
-.header a {
+.link {
     text-decoration: none;
 }
 
-.header li {
+.list {
     list-style-type: none;
 }
 
@@ -31,7 +31,7 @@ body {
     color: #000000;
 }
 
-.nav-list a {
+.nav-list .link {
     color: var(--primary-text-color)
 }
 
@@ -49,9 +49,6 @@ body {
     color: var(--secondary-text-color);
 }
 /* main styles */
-.main li {
-    list-style-type: none;
-}
 
 .post {
     background-color: var(--secondary-page-color);
@@ -61,24 +58,27 @@ body {
     color: #ffffff;
 }
 
-.button-order {
+.order-btn {
     background-color: var(--active-text-color);
     color: #ffffff;
 }
 
-.skills p {
+.filter-btn {
+    background-color: #F5F4FA;
+}
+.filter-btn:hover {
+    background-color: var(--active-text-color);
+    color: #ffffff;
+}
+.skills-about {
     color: var(--secondary-text-color);
 }
 
-.our-team p {
+.about {
     color: var(--secondary-text-color);
 }
-
 
 /* footer styles */
-.footer li {
-    list-style-type: none;
-}
 .footer {
     background-color: var(--secondary-page-color);
 }
@@ -86,9 +86,6 @@ body {
     color: #ffffff;
 }
 
-.footer a {
-    text-decoration: none;
-}
 .footer-adress {
     color: #ffffff;
 }
