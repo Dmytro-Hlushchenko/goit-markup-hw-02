@@ -1,3 +1,105 @@
+:root {
+    --primary-page-color: #ffffff;
+    --secondary-page-color: #2F303A;;
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --active-text-color: #2196F3;
+
+}
+
 body {
-    background-color: #fff;
+    background-color:var(--primart-page-color);
+    color: var(--primary-text-color);
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header li {
+    list-style-type: none;
+}
+
+/*header styles*/
+
+.logo-web,
+.logo-web-footer {
+    color: var(--active-text-color);
+}
+
+.logo-studio {
+    color: #000000;
+}
+
+.nav-list a {
+    color: var(--primary-text-color)
+}
+
+.nav-list a:hover,
+.nav-list a:focus,
+.header-mail:hover,
+.header-tel:hover,
+.header-mail:focus,
+.header-tel:focus {
+    color: var(--active-text-color);
+}
+
+.header-tel,
+.header-mail {
+    color: var(--secondary-text-color);
+}
+/* main styles */
+.main li {
+    list-style-type: none;
+}
+
+.post {
+    background-color: var(--secondary-page-color);
+}
+
+.post-text {
+    color: #ffffff;
+}
+
+.button-order {
+    background-color: var(--active-text-color);
+    color: #ffffff;
+}
+
+.skills p {
+    color: var(--secondary-text-color);
+}
+
+.our-team p {
+    color: var(--secondary-text-color);
+}
+
+
+/* footer styles */
+.footer li {
+    list-style-type: none;
+}
+.footer {
+    background-color: var(--secondary-page-color);
+}
+.logo-studio-footer{
+    color: #ffffff;
+}
+
+.footer a {
+    text-decoration: none;
+}
+.footer-adress {
+    color: #ffffff;
+}
+
+.footer-contact {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-adress:hover,
+.footer-adress:focus,
+.footer-contact:hover,
+.footer-contact:focus {
+    color: var(--active-text-color);
 }
