@@ -50,7 +50,7 @@ body {
 }
 /* main styles */
 
-.post {
+        .post {
     background-color: var(--secondary-page-color);
 }
 
@@ -61,12 +61,15 @@ body {
 .order-btn {
     background-color: var(--active-text-color);
     color: #ffffff;
+    cursor: pointer;
 }
 
 .filter-btn {
     background-color: #F5F4FA;
+    cursor: pointer;
 }
-.filter-btn:hover {
+.filter-btn:hover,
+.filter-btn:focus {
     background-color: var(--active-text-color);
     color: #ffffff;
 }
@@ -82,6 +85,7 @@ body {
 .footer {
     background-color: var(--secondary-page-color);
 }
+    
 .logo-studio-footer{
     color: #ffffff;
 }
