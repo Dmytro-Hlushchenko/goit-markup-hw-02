@@ -7,14 +7,13 @@
     <title lang="en">WebStudio (Version 2.1)</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/styles.css">
   </head>
   <body>
-    <header class="header">
-      <nav class="header-nav">
-        <a class="logo link" href="./index.html" lang="en"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
+    <header>
+      <nav>
+        <a class="logo link" href="./index.html" lang="en"><span class="logo-web">Web</span><span class="logo-studio-header">Studio</span></a>
         <ul class="nav-list list">
           <li><a class="link" href="./index.html">Студія</a></li>
           <li><a class="link" href="./portfolio.html">Портфоліо</a></li>
@@ -27,45 +26,45 @@
       </ul>
     </header>
 
-    <main class="main">
+    <main>
       
-      <section class="post">
-        <h1 class="post-text">Ефективні рішення для вашого бзнесу</h1>
-        <button class="order-btn" type="button">Замовити послугу</button>
+      <section class="hero">
+        <h1 class="hero-title">Ефективні рішення для вашого бзнесу</h1>
+        <button class="hero-btn" type="button">Замовити послугу</button>
       </section>
       
       <section>
-        <h2 hidden>Наші пріорітети</h2>
-        <ul class="skills list">
+        <h2 class="title" hidden>Наші пріорітети</h2>
+        <ul class="list">
           <li>
-            <h3>Увага до деталей</h3>
-            <p class="skills-about">
+            <h3 class="subtitle">Увага до деталей</h3>
+            <p class="about">
               Ідейні міркування і навіть початок повсякденної роботи з формування позиції.
             </p>
           </li>
           <li>
-            <h3>Пунктуальність</h3>
-            <p class="skills-about">
+            <h3 class="subtitle">Пунктуальність</h3>
+            <p class="about">
               Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
             </p>
           </li>
           <li>
-            <h3>Планування</h3>
-            <p class="skills-about">
+            <h3 class="subtitle">Планування</h3>
+            <p class="about">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
-            <h3>Сучасні технології</h3>
-            <p class="skills-about">
+            <h3 class="subtitle">Сучасні технології</h3>
+            <p class="about">
               Значимість цих проблем настільки очевидна, що реалізація планових завдань.
             </p>
           </li>
         </ul>
       </section>
-      <section class="our-work">
-        <h2>Чим ми займаємося</h2>
-        <ul class="our-work list">
+      <section>
+        <h2 class="title" >Чим ми займаємося</h2>
+        <ul class=" list">
           <li>
             <img
               src="./images/our_work/box_1.jpg"
@@ -89,17 +88,17 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Наша команда</h2>
-        <ul class="our-team list">
+      <section class="our-team">
+        <h2 class="title" >Наша команда</h2>
+        <ul class="list">
           <li>
             <img
               src="./images/our_team/igor_demjanenko.jpg"
               alt="усміхнений чоловік"
               width="270"
               height="260">
-            <h3 class="title">Ігор Дем'яненко</h3>
-            <p class="about" lang="en">Product Designer</p>
+            <h3 class="member">Ігор Дем'яненко</h3>
+            <p class="member-about" lang="en">Product Designer</p>
           </li>
           <li>
             <img
@@ -107,8 +106,8 @@
               alt="усміхнена жінка"
               width="270"
               height="260">
-            <h3 class="title">Ольга Рєпіна</h3>
-            <p class="about" lang="en">Frontend Developer</p>
+            <h3 class="member">Ольга Рєпіна</h3>
+            <p class="member-about" lang="en">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -116,8 +115,8 @@
               alt="усміхнений чоловік"
               width="270"
               height="260">
-            <h3 class="title">Микола Тарасов</h3>
-            <p class="about" lang="en">Marketing</p>
+            <h3 class="member">Микола Тарасов</h3>
+            <p class="member-about" lang="en">Marketing</p>
           </li>
           <li>
             <img
@@ -125,16 +124,16 @@
               alt="усміхнений чоловік"
               width="270"
               height="260">
-            <h3 class="title">Михайло Єрмаков</h3>
-            <p class="about" lang="en">UI Designer</p>
+            <h3 class="member">Михайло Єрмаков</h3>
+            <p class="member-about" lang="en">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
     <footer class="footer"> 
-      <a class="logo-footer link" href="./index.html" lang="en"><span class="logo-web-footer">Web</span><span class="logo-studio-footer">Studio</span></a>
-      <address>
+      <a class="logo link" href="./index.html" lang="en"><span class="logo-web">Web</span><span class="logo-studio-footer">Studio</span></a>
+      <adress>
         <ul class="list">
           <li>
             <a class="footer-adress link" href="https://goo.gl/maps/M9eBpiQ83PVmo5ni9" target="_blank">м.Київ, пр-т Лесі Українки, 26</a>
@@ -146,7 +145,7 @@
             <a class="footer-contact link" href="tel:+380991111111"> +38 (099) 111 11 11</a>
           </li>
         </ul>
-      </address>
+      </adress>
     </footer>
   </body>
 </html>
