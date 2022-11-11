@@ -41,21 +41,18 @@ body {
     color:inherit;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
 .nav-list a:hover,
 .nav-list a:focus,
-.header-mail:hover,
-.header-tel:hover,
-.header-mail:focus,
-.header-tel:focus {
+.header-contact:hover,
+.header-contact:focus {
     color: var(--active-text-color);
 }
 
-.header-tel,
-.header-mail {
+.header-contact {
     color: var(--secondary-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -84,6 +81,11 @@ body {
     background-color: #2196F3;
     color: #ffffff;
     cursor: pointer;
+    font-family:inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
 }
 
 .title {
@@ -96,7 +98,7 @@ body {
 .subtitle {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -160,6 +162,8 @@ body {
 .filter-btn {
     background-color: #F5F4FA;
     cursor: pointer;
+    font-family: inherit;
+    color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
