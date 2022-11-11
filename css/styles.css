@@ -66,7 +66,7 @@ body {
 
 /* main styles */
 
-    .hero {
+.hero {
     background-color: var(--secondary-page-color);
 }
 
@@ -84,22 +84,6 @@ body {
     background-color: #2196F3;
     color: #ffffff;
     cursor: pointer;
-}
-
-.filter-btn {
-    background-color: #F5F4FA;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    display: flex;
-    text-align: center;
-    letter-spacing: 0.06em;
-}
-.filter-btn:hover,
-.filter-btn:focus {
-    background-color: var(--active-text-color);
-    color: #ffffff;
 }
 
 .title {
@@ -174,3 +158,36 @@ body {
 .footer-contact:focus {
     color: var(--active-text-color);
 }   
+
+/*portfolio main*/
+
+.filter-btn {
+    background-color: #F5F4FA;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color: var(--active-text-color);
+    color: #ffffff;
+}
+
+.project-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-about {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.86;
+    letter-spacing: 0.03em;
+}
